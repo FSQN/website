@@ -1,0 +1,17 @@
+.git
+.github
+node_modules
+.next
+out
+data
+_data
+npm-debug.log*
+yarn-error.log*
+.DS_Store
+*.pem
+.env*
+Dockerfile
+.dockerignore
+README.md
+LICENSE
+.htaccess

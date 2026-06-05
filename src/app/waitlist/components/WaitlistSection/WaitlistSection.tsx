@@ -37,7 +37,7 @@ export default function WaitlistSection() {
         setErrorText("");
 
         try {
-            const res = await fetch("/api/waitlist.php", {
+            const res = await fetch("/api/waitlist", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
